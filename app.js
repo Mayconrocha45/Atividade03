@@ -82,6 +82,7 @@ function App() {
       </div>
 
       {diasDaSemana.map(dia => (
+    ,    
         <div key={dia} className="dia-container">
           <h2>{dia}</h2>
           {['manha', 'tarde', 'noite'].map(periodo => (
